@@ -1119,7 +1119,6 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
 	background-size: 92px 15px;
 }
 
@@ -1230,7 +1229,7 @@ header .logo a {
 /* dropdown nav */
 .main-navigation {
 	background: #000000;
-	padding: 24px 30px 42px;
+	padding: 10px 30px 5px;
 	margin: 0;
 	width: 100%;
 	height: auto;
@@ -1622,7 +1621,7 @@ header .logo a {
  */
 #resume {
 	padding-top: 12rem;
-	padding-bottom: 1rem;
+	padding-bottom: 4rem;
 }
 
 #resume .resume-header {
@@ -1704,6 +1703,16 @@ header .logo a {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+
+/**
+ * Adjusting "Sciences mathematiques B" by adding some margin to Inline block above
+ * resume
+ * ------------------------------------------------------------------- 
+ */
+
+#adjust{
+	margin-bottom: 6rem;
 }
 
 /**
@@ -2030,6 +2039,7 @@ header .logo a {
 	padding-top: 10.2rem;
 	padding-bottom: 9rem;
 	text-align: center;
+	background-color: white;
 }
 #cta p.lead {
 	color: #6e6e6e;
@@ -2492,6 +2502,7 @@ header .logo a {
  */
 footer {
 	padding-bottom: 3rem;
+	padding-top: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
 }
@@ -2505,7 +2516,6 @@ footer .row {
 	max-width: 900px;
 }
 footer .social {
-	margin-top: 50px;
 	text-align: right;
 }
 footer .footer-social {
